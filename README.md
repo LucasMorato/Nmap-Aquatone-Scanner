@@ -1,4 +1,4 @@
-# Automação de Coleta de Informações com Nmap e Aquatone
+# Automação de Enumeração com Nmap e Aquatone
 
 ## Descrição Geral
 Desenvolvi um script Python que automatiza a coleta de informações de um site usando as ferramentas Nmap e Aquatone. O objetivo é facilitar o processo de execução dessas ferramentas e organizar os resultados em uma estrutura de pasta adequada. É necessário ter o Nmap e o Aquatone instalados no sistema operacional Linux para utilizar este script.
@@ -21,4 +21,4 @@ O script cria automaticamente uma pasta com o nome do site-alvo e move o relató
 5. Substitua "example.com" pelo site que deseja pesquisar e "-sV" pela flag desejada. (Não adicione traço no comando)
 6. O script executará o Nmap e o Aquatone, gerando o relatório Aquatone na pasta do site-alvo.
 7. Todos os arquivos e pastas (exceto o script) serão movidos para a pasta do site para organização e o relatório irá abrir no navegador.
-8. Caso nao queira visualizar o relatório automaticamente, remova o comando ```--open``` da linha de comando.
+8. Caso não queira visualizar o relatório automaticamente, remova o comando ```--open``` da linha de comando.

@@ -1,7 +1,7 @@
 # Automação de Coleta de Informações com Nmap e Aquatone
 
 ## Descrição Geral
-Este repositório contém um script Python que automatiza a coleta de informações de um site usando as ferramentas Nmap e Aquatone. O objetivo é facilitar o processo de execução dessas ferramentas e organizar os resultados em uma estrutura de pasta adequada. É necessário ter o Nmap e o Aquatone instalados no sistema operacional Linux para utilizar este script.
+Desenvolvi um script Python que automatiza a coleta de informações de um site usando as ferramentas Nmap e Aquatone. O objetivo é facilitar o processo de execução dessas ferramentas e organizar os resultados em uma estrutura de pasta adequada. É necessário ter o Nmap e o Aquatone instalados no sistema operacional Linux para utilizar este script.
 
 ## Instalação das Dependências
 Certifique-se de ter o Nmap e o Aquatone instalados no seu sistema operacional Linux. Para instalar o Nmap, visite o site oficial em https://nmap.org e siga as instruções de instalação fornecidas. Para instalar o Aquatone, acesse https://github.com/michenriksen/aquatone e siga as instruções fornecidas no repositório.

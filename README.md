@@ -17,7 +17,8 @@ O script cria automaticamente uma pasta com o nome do site-alvo e move o relató
 3. Acesse o diretório do projeto: cd nmap-aquatone-automation
 4. Execute o script, fornecendo o site-alvo e a flag do Nmap como argumentos:
 * Exemplo: 
-```python script.py --site example.com --flag sV```
+```python script.py --site example.com --flag sV --open```
 5. Substitua "example.com" pelo site que deseja pesquisar e "-sV" pela flag desejada. (Não adicione traço no comando)
 6. O script executará o Nmap e o Aquatone, gerando o relatório Aquatone na pasta do site-alvo.
-7. Todos os arquivos e pastas (exceto o script) serão movidos para a pasta do site para organização.
+7. Todos os arquivos e pastas (exceto o script) serão movidos para a pasta do site para organização e o relatório irá abrir no navegador.
+8. Caso nao queira visualizar o relatório automaticamente, remova o comando ```--open``` da linha de comando.
